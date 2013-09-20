@@ -1,5 +1,5 @@
 name: alex
-version: 3.1.0
+version: 3.1.1
 license: BSD3
 license-file: LICENSE
 copyright: (c) Chis Dornan, Simon Marlow
@@ -86,7 +86,7 @@ executable alex
   -- build-depends: Ranged-sets
   build-depends: QuickCheck >=2
 
-  extensions: CPP
+  extensions: CPP, BangPatterns
   ghc-options: -Wall -rtsopts
   other-modules:
         AbsSyn
